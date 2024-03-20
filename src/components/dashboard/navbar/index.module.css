@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-soft-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.path {
+  font-size: 24px;
+}

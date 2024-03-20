@@ -3,12 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-color: #151c2c;
+  --bg-soft-color: #182237;
+  --text-color: white;
+  --text-soft-color: #b7bac1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
-
