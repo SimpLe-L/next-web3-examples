@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  flex: 4;
+}
