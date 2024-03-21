@@ -2,13 +2,13 @@
  * @Description:  
  * @Author: liaolei
  * @Date: 2024-03-20 14:51:14
- * @LastEditors: liaolei
- * @LastEditTime: 2024-03-20 14:51:36
+ * @LastEditors: L
+ * @LastEditTime: 2024-03-20 22:42:31
  */
 const AboutPage = ({ }) => {
 
   return (
-    <div>Simple-L</div>
+    <div className="common">Simple-L</div>
   );
 };
 

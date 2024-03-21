@@ -2,28 +2,35 @@
  * @Description:  sidebar
  * @Author: liaolei
  * @Date: 2024-03-20 14:07:30
- * @LastEditors: liaolei
- * @LastEditTime: 2024-03-20 14:42:07
+ * @LastEditors: L
+ * @LastEditTime: 2024-03-20 21:20:47
  */
 import MenuItem from "./menuItem/menuItem"
 import styles from "./index.module.css"
 
 const menuList = [
   {
-    menuName: "NFT",
+    menuName: "web3",
     list: [
       {
-        title: "NFT",
+        title: "Vote",
+        path: "/dashboard/vote",
+      },
+      {
+        title: "Crowdfunding",
+        path: "/dashboard/rowdfunding",
+      },
+      {
+        title: "NFT Market",
         path: "/dashboard/nft",
-      }
-    ]
-  },
-  {
-    menuName: "DEFI",
-    list: [
+      },
       {
-        title: "DEFI",
-        path: "/dashboard/defi",
+        title: "ERC20 token",
+        path: "/dashboard/erc20",
+      },
+      {
+        title: "Staking Mining",
+        path: "/dashboard/staking",
       }
     ]
   },
