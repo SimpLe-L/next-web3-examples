@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: var(--bg-soft-color);
   display: flex;
   align-items: center;
@@ -10,4 +10,18 @@
 
 .path {
   font-size: 24px;
+}
+
+.connect {
+  width: fit-content;
+  padding: 4px 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.connect:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 16px;
+  cursor: pointer;
 }

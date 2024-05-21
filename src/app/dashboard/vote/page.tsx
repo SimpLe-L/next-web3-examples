@@ -5,11 +5,11 @@
  * @LastEditors: liaolei
  * @LastEditTime: 2024-03-26 19:00:34
  */
-import { main } from "@/app/hook/useEthers";
+// import { main } from "@/app/hook/useEthers";
 
 
 const Vote = () => {
-  main();
+  // main();
 
   return (
     <div className="common">Vote</div>
